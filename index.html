@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Field Notes
+</title>
+</head>
+<body>
+    <h1>welcome to my world</h1>
+    <h3>difference between git and github</h3>
+    <h5>💻 Git (The Tool)</h5>
+        <p>What it is: A software program that you install on your computer.<br>What it does: It tracks the changes you make to your code over time (like an advanced "Undo" history).
+            <br>Internet needed? No. It runs completely offline on your local machine.</p>
+    <h5>🌐 GitHub (The Place)</h5>
+        <p>What it is: A website and cloud platform.<br>What it does: It hosts your Git repositories online so you can back up your code and share it with others.
+            <br>Internet needed? Yes. You need to be online to upload (push) or download (pull) your code to and from GitHub.</p>
+    <section>   
+    <h3>daily loop</h3>
+    <ui>
+        <li>Edit: Making changes to your code files inside your text editor.</li><br>
+        <li>Stage: Selecting and preparing specific changed files to be included in your next save (git add).</li><br>
+        <li>Commit: Saving a permanent snapshot of your staged changes to your local computer's history (git commit).</li><br>
+        <li>Push: Uploading your local commits to a remote server like GitHub to back them up and share them (git push).</li><br>
+    </ui>
+    </section>
+    <section>
+    <h3>Git Command</h3>
+    <ol>
+        <li>git init :Initializes a brand new, empty Git repository in your current project folder.</li>
+        <li>git status: Shows the current state of your project, listing which files have been modified, staged, or are untracked.</li>
+        <li>git log: Dislays a chronological history of all commits made in the project so far.</li>
+        <li>git commit -m "message": Saves your staged files to your local history with a short message describing what changed.</li>
+        <li>git push: Uploads all of your locally saved commits to a remote server, like GitHub.</li>
+        <li>git pull: Fetches and downloads any new changes made by team members from GitHub directly into your local files.</li>
+        <li>git branch: Lists all the branches in your project, or creates a new one if you add a name after it.</li>
+        <li>git diff: Shows the exact line-by-line code changes you have made that haven't been staged yet.</li>
+        
+
+    </ol>
+    </section>
+    <section>
+    <h2>Things I Should Not Commit</h2>
+
+    <ul>
+        <li>
+            <strong>.env</strong> - May contain API keys, passwords, and other sensitive information.
+        </li>
+
+        <li>
+            <strong>Secrets</strong> - Private credentials and confidential data should never be uploaded to GitHub.
+        </li>
+
+        <li>
+            <strong>node_modules</strong> - Contains installed packages and can be recreated using npm install.
+        </li>
+
+        <li>
+            <strong>.DS_Store</strong> - A macOS system file that is unnecessary for a project repository.
+        </li>
+    </ul>
+</section>
+<footer>
+    <p>Created by Riyaj Uddin</p>
+</footer>
+
+
+    
+
+
+
+
+
+
+
+                    
+
+    
+</body>
+</html>
